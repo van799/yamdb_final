@@ -45,7 +45,7 @@ jobs:
           context: api_yamdb/
           file: api_yamdb/Dockerfile
           push: true
-          tags: van79/yamdb_final:latest
+          tags: van79/api_yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
